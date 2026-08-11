@@ -10,7 +10,9 @@
         "postinstall": "prisma generate",
         "test": "echo \"Error: no test specified\" && exit 1",
         "format:check": "npx @biomejs/biome format ./src",
-        "format:fix" : " npx @biomejs/biome format --write ./src"
+        "format:fix" : " npx @biomejs/biome format --write ./src",
+        "lint:check": "npx @biomejs/biome lint ./src",
+        "lint:fix" : " npx @biomejs/biome lint --write ./src"
     },
     "keywords": [],
     "author": "",
